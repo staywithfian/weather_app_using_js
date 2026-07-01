@@ -1,5 +1,5 @@
 document.getElementById('btn').addEventListener('click',() =>{
-const apikey = "f68d02a8db98277633a258a716430431";
+const apikey = "HIDDEN";
 const inpvalue = document.getElementById('input').value;
 const api = `https://api.openweathermap.org/data/2.5/weather?q=${inpvalue}&appid=${apikey}&units=metric`;
 
